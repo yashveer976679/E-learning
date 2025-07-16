@@ -1,0 +1,144 @@
+/* filepath: c:\Users\DELL\OneDrive\Documents\New folder (2)\e-learning\style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f4f6fb;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background: #2d3e50;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+header h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ff9800;
+}
+
+.hero {
+  background: linear-gradient(120deg, #2d3e50 60%, #ff9800 100%);
+  color: #fff;
+  padding: 4rem 0 3rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #ff9800;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #e67c00;
+}
+
+.btn.small {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+}
+
+.courses-section {
+  padding: 3rem 0;
+  background: #fff;
+}
+
+.courses {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-card {
+  background: #f4f6fb;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  padding: 2rem 1.5rem;
+  width: 300px;
+  text-align: center;
+}
+
+.course-card h3 {
+  margin-top: 0;
+  color: #2d3e50;
+}
+
+.about-section, .contact-section {
+  padding: 3rem 0;
+}
+
+.about-section {
+  background: #f9fafc;
+}
+
+.contact-section {
+  background: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+footer {
+  background: #2d3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0;
+  margin-top: 2rem;
+}

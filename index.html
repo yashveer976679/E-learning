@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnify - E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Learnify</h1>
+      <nav>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Upgrade Your Skills Online</h2>
+      <p>Interactive courses in programming, design, and more. Start learning today!</p>
+      <a href="#courses" class="btn">Browse Courses</a>
+    </div>
+  </section>
+
+  <section id="courses" class="courses-section">
+    <div class="container">
+      <h2>Popular Courses</h2>
+      <div class="courses">
+        <div class="course-card">
+          <h3>HTML & CSS Basics</h3>
+          <p>Learn how to build beautiful websites from scratch.</p>
+          <button class="btn small" onclick="document.getElementById('htmlcss-video').style.display='block'">View Course</button>
+          <div id="htmlcss-video" style="margin-top:1rem; display:none;">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML & CSS Crash Course" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="course-card">
+          <h3>Python for Beginners</h3>
+          <p>Start coding in Python with hands-on exercises.</p>
+          <button class="btn small" onclick="document.getElementById('python-video').style.display='block'">View Course</button>
+          <div id="python-video" style="margin-top:1rem; display:none;">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/_uQrJ0TkZlc" title="Python for Beginners - FreeCodeCamp" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Learnify</h2>
+      <p>
+        Learnify is a simple e-learning platform designed to help you learn new skills at your own pace. Our courses are interactive, beginner-friendly, and completely free.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Learnify. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
